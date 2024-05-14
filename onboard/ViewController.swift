@@ -29,8 +29,6 @@ class ViewController: UIViewController {
     
     @IBAction func onTappedSkipBtn(_ sender: Any) {
 //        _handleSkipAction()
-        let targetScreen1 = storyboard?.instantiateViewController(identifier: "ClockViewController") as? ClockViewController
-        self.navigationController?.pushViewController(targetScreen1!, animated: true)
     }
     
     @IBAction func onTappedStartBtn(_ sender: Any) {
